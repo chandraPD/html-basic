@@ -2,15 +2,18 @@
     margin:0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     display: block;
     overflow-y: scroll;
-    scroll-behavior: smooth;
 }
 
 header{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1604440977833-9c2f39dcc0c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
     background-position: center;
 }
